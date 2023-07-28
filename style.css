@@ -1,0 +1,63 @@
+div {
+    
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 3px;
+    
+}
+a:hover {
+    color: rgb(31, 200, 31);
+    background-color: gray;
+}
+
+a:active {
+    color: red;
+    background-color: aqua;
+}
+
+a:visited {
+    color: yellow;
+    background-color: red;
+}
+a:link {
+    color:rgb(108, 40, 172);
+}
+
+
+.grid{
+    background-color:gainsboro;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 10px;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    }
+
+    .display{
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        justify-content: end;
+        padding-right: 10px;
+        align-items: center;
+        height: 50px;
+        background-color:rgb(182, 182, 229) ;
+        color: white;
+    }
+
+    .result{
+        display: flex;
+        grid-row-start:5 ;
+        grid-row-end: 7;
+        grid-column-start: 5;
+        grid-column-end: 6;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(148, 148, 25);
+        color: white;
+    }
